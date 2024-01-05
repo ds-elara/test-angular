@@ -7,5 +7,10 @@ pipeline {
         sh 'printenv'
       }
     }
+    stage ('ENV') {
+      steps {
+        sh 'printenv'
+      }
+    }
   }
 }
